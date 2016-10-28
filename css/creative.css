@@ -16,9 +16,9 @@ hr {
   border-width: 3px;
   max-width: 50px;
 }
-hr.light {
-  border-color: white;
-}
+/*hr.light {*/
+  /*border-color: white;*/
+/*}*/
 a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
@@ -47,11 +47,10 @@ p {
 }
 .bg-dark {
   background-color: #222222;
-  color: white;
 }
-.text-faded {
-  color: rgba(255, 255, 255, 0.7);
-}
+/*.text-faded {*/
+  /*color: rgba(255, 255, 255, 0.7);*/
+/*}*/
 section {
   padding: 100px 0;
 }
@@ -62,7 +61,6 @@ aside {
   padding: 0;
 }
 .navbar-default {
-  background-color: white;
   border-color: rgba(34, 34, 34, 0.05);
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.35s;
@@ -149,15 +147,12 @@ aside {
 header {
   position: relative;
   width: 100%;
-  min-height: auto;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/header.jpg');
   text-align: center;
-  color: white;
 }
 header .header-content {
   position: relative;
@@ -171,15 +166,17 @@ header .header-content .header-content-inner h1 {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 30px;
+    color: white;
 }
 header .header-content .header-content-inner hr {
   margin: 30px auto;
+    color: white;
 }
 header .header-content .header-content-inner p {
   font-weight: 300;
-  color: rgba(255, 255, 255, 0.7);
   font-size: 16px;
   margin-bottom: 50px;
+    color: white;
 }
 @media (min-width: 768px) {
   header {
